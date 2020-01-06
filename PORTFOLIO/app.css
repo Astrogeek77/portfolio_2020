@@ -2,7 +2,7 @@ body {
     background: url(https://images.unsplash.com/photo-1555532538-dcdbd01d373d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1131&q=80);
     background-size: contain; 
     background-repeat: no-repeat;
-    margin-bottom: 18rem;
+    /*margin-bottom: 18rem;*/
 }
 .navbar-default {
     background-color: black;
@@ -12,28 +12,26 @@ body {
 }
 
 #two {
-    width: 1519.2px;
+    width: 100%;
     height: 100%;
-    font-family: "Lato";
+    /*font-family: "Lato";*/
     color: white;
-    margin-bo: 100px;
 }
 
 h1 {
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 5em;
 }
 
 
 .content{
-	padding-top: 25%;
+	padding-top: 20%;
 	text-align: center;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
                  0px 8px 13px rgba(0,0,0,0.1),
                  0px 18px 23px rgba(0,0,0,0.1);
-    margin-top: 0px;
     margin-bottom: 250px;
-           
+    color: #ffc107;    
 }
 
 hr {
@@ -41,32 +39,48 @@ hr {
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
-#one {
+/*#one {
     animation: 3s linear 1s infinite alternate slidein;
+}*/
+
+.nav a:hover {
+    color: black;
+    background-color: white;
+}
+ /*#navbarSupportedContent a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    margin: 10px;
+}
+*/
+/*.nav-link .active {
+    color: yellow;
+}
+*/
+ a:hover {
+    color: white;
+    text-decoration: none;
+    /*background-color: transparent;*/
 }
 
- a {
+/*.dropdown {
     color: yellow;
     text-decoration: none;
 }
-
-.dropdown {
-    color: yellow;
-    text-decoration: none;
-}
-
-.dropdown:hover {
+*/
+/*.dropdown-toggle:hover {
     color: white;
 }
-.dropdown-item {
+.dropdown-menu {
     color: black;
     margin: 1px;
-}
+}*/
 
-#ten:hover {
+/*#ten:hover {
   color: white;
 }
-
+*/
 /*.four {
     background: url(https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80);
     background-size: cover;
@@ -74,7 +88,12 @@ hr {
 }*/
 
 body {
-    background-color: black;
+    background-color: grey;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
 }
 
 /*.eleven {
@@ -90,142 +109,43 @@ body {
     margin-bottom: 0;
     }
 
-/* Change this breakpoint if you change the breakpoint of the navbar */
-
-@media (min-width: 992px) {
-  .animate {
-    animation-duration: 0.3s;
-    -webkit-animation-duration: 0.3s;
-    animation-fill-mode: both;
-    -webkit-animation-fill-mode: both;
-  }
-}
-
-@keyframes slideIn {
-  0% {
-    transform: translateY(1rem);
-    opacity: 0;
-  }
-  100% {
-    transform:translateY(0rem);
-    opacity: 1;
-  }
-  0% {
-    transform: translateY(1rem);
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes slideIn {
-  0% {
-    -webkit-transform: transform;
-    -webkit-opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    -webkit-opacity: 1;
-  }
-  0% {
-    -webkit-transform: translateY(1rem);
-    -webkit-opacity: 0;
-  }
-}
-
-.slideIn {
-  -webkit-animation-name: slideIn;
-  animation-name: slideIn;
-}
-
-  
-@keyframes jackInTheBox {
-  from {
-    opacity: 0;
-    transform: scale(0.1) rotate(30deg);
-    transform-origin: center bottom;
-  }
-
-  50% {
-    transform: rotate(-10deg);
-  }
-
-  70% {
-    transform: rotate(3deg);
-  }
-
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
-
-.jackInTheBox {
-  animation-name: jackInTheBox;
-}
-
-.glow-on-hover {
-    width: 220px;
-    height: 50px;
-    border: none;
-    outline: none;
-    color: white;
-    background: #111;
-    cursor: pointer;
-    position: relative;
-    z-index: 0;
-    border-radius: 10px;
-}
-
-.glow-on-hover:before {
-    content: '';
-    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
-    position: absolute;
-    top: -2px;
-    left:-2px;
-    background-size: 400%;
-    z-index: -1;
-    filter: blur(5px);
-    width: calc(100% + 4px);
-    height: calc(100% + 4px);
-    animation: glowing 20s linear infinite;
-    opacity: 0;
-    transition: opacity .3s ease-in-out;
-    border-radius: 10px;
-}
-
-.glow-on-hover:active {
-    color: white;
-}
-
-.glow-on-hover:active:after {
-    background: transparent;
-}
-
-.glow-on-hover:hover:before {
-    opacity: 1;
-}
-
-.glow-on-hover:after {
-    z-index: -1;
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #111;
-    left: 0;
-    top: 0;
-    border-radius: 10px;
-}
-
-@keyframes glowing {
-    0% { background-position: 0 0; }
-    50% { background-position: 400% 0; }
-    100% { background-position: 0 0; }
-}
-
-.navbar-light .navbar-brand {
+.navbar-brand,.nav-link {
     color: yellow;
 }
 
 .carousel-caption {
     color: black;
 }
+
+.navbar-light .navbar-brand {
+    color: yellow;
+    padding: 0px;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+/*.navbar-nav{
+    padding: 0px;
+    margin: 0px;
+}
+*/
+/*navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: yellow;
+}*/
+
+.navbar-nav {
+    color: yellow;
+}
+
+.nav-link a {
+    color: yellow;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#yes {
+    color: white;
+    background-color: black;
+}
+

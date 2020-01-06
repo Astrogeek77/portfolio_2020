@@ -9,12 +9,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a243bcb0fc.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="animate.css">
     <link rel="stylesheet" type="text/css" href="app.css">
+    
 
     <title>Portfolio</title>
   </head>
   <body>
-    <div class="preloader">
+  <div class="preloader">
       <div class="sk-spinner sk-spinner-wave">
           <div class="sk-rect1"></div>
             <div class="sk-rect2"></div>
@@ -22,64 +24,246 @@
             <div class="sk-rect4"></div>
             <div class="sk-rect5"></div>
         </div>
-      </div>
 
- <div class="container" id="two">
- <nav class="navbar navbar-light bg-none navbar-fixed-top">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a id="ten" class="navbar-brand" href="#"><i class="fas fa-users"></i> TEAM NOTWORTHY</a>
-    </div>
-    <div id="navbar" class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
-          <ul class="dropdown-menu animate slideIn">
-            <li><a href="https://www.jquery-az.com/about-us/">Item1</a></li>
-            <li><a href="https://www.jquery-az.com/contact/">Item2</a></li>
-            <li><a href="https://www.jquery-az.com/contact/">Item3</a></li>
-          </ul>
-        </li> 
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Contact <span class="caret"></span></a>
-          <ul class="dropdown-menu animate slideIn">
-            <li><a href="https://www.jquery-az.com/about-us/">+91-98776-63895</a></li>
-            <li><a href="https://www.jquery-az.com/contact/">Contact</a></li>
-          </ul>
-        </li> 
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
+<!--  Navbar -->
+       <!--  <div class="container" id="two">
+        <nav class="navbar navbar-success navbar-expand-md navbar-fixed-top">
+  
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">about</a>
+      </li>
+      <li class="nav-item dropdown mr-auto">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown mr-10">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact
+        </a>
+        <div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">+91-98776-63895</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown mr-10">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Account
+        </a>
+        <div class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Login</a>
+          <a class="dropdown-item" href="#">Sign Up</a>
+        </div>
+      </li>
+       <u
+        <ul class="nav navbar-nav navbar-right">
         <li><a href="#">Signup  <i class="fa fa-user-plus"></i></a></li>
         <li><a href="#about">Login  <i class="fa fa-user"></i></a></li>
       </ul>
-    </div>
   </div>
- </nav>
+  </ul>
+</nav>
+</div>  --> 
 
+
+
+<header role="banner">
+    <nav class="navbar navbar-expand-lg  bg-none">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><i class="fas fa-users"></i> TEAM NOTWORTHY</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+          aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+   
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav pl-md-5 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="services.html" id="dropdown04" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Services</a>
+              <div class="dropdown-menu" aria-labelledby="dropdown04">
+                <a class="dropdown-item" href="#">Branding</a>
+                <a class="dropdown-item" href="#">Web Design</a>
+                <a class="dropdown-item" href="#">App Design</a>
+                <a class="dropdown-item" href="#">Start Up</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="portfolio.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <div class="navbar-nav ml-auto">
+            <form method="post" class="search-form">
+              <span class="icon ion ion-search"></span>
+              <input type="text" class="form-control" placeholder="Search...">
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar End -->
+
+<!-- Main Content/Home -->
  <div class="container" id="nine">
   <div class="row">
     <div class="col-lg-12">
       <div class="content">
-        <h1>Team Notworthy</h1>
-        <h3 class="one jackInTheBox">A Group of Tech Enthusiast Friends, Passionate for Programing!</h3>
+        <h1 class="bounce ">Team Notworthy</h1>
+        <h3 id="one" class="jackInTheBox">A Group of Tech Enthusiast Friends, Passionate for Programing!</h3>
         <hr>
-       <!--  <a data-scroll href="login/login.php" class="btn btn-default wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s">GET STARTED</a> -->
-        <button data-scroll href="#two" class="btn btn-default btn-lg glow-on-hover wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s"><i class="fas fa-chalkboard-teacher"></i> Let's Get Started!</button>
+        <!-- <button data-scroll href="#two" id="yes" class="btn btn-default btn-lg glow-on-hover wow fadeInUp" data-wow-offset="50" data-wow-delay="0.6s"><i class="fas fa-chalkboard-teacher"></i> Let's Get Started!</button> -->
+        <div class="box-1">
+          <div class="btn btn-two">
+            <span>HOVER ME</span>
+            <!-- <button data-scroll href="#" class="btn btn-lg glow-on-hover" data-wow-offset="50" data-wow-delay="0.6s"><i class="fas fa-chalkboard-teacher"></i> Let's Get Started!></button> -->
+          </div>
+        </div>
+        
       </div>
     </div>
   </div>
  </div>
 </div>
-          <div class="four">
-                    <div id="carouselExampleCaptions" class="carousel slide carousal-fade" data-ride="carousel">
+<!-- Main Content End -->
+
+
+
+<!-- Breadcrumb -->
+   <div class="slider-item innerp overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/hero_2.jpg');">
+    <div class="container">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <h1 class="mb-4" data-aos="fade-right" data-aos-delay="">Projects</h1>
+          <p class="custom-breadcrumbs" data-aos="fade-right" data-aos-delay="100"><a href="index.html">Home</a> <span class="mx-3">/</span> Projects</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Breadcrumb End -->
+
+
+<section>
+  <div class="section portfolio-section">
+    <div class="container">
+      <div class="row mb-5 justify-content-center">
+        <div class="col-md-8 text-center">
+          <h2 class="mb-4 section-title" data-aos="fade-right" data-aos-delay="">Awesome Work</h2>
+          <p data-aos="fade-right" data-aos-delay="100">Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis accusamus perferendis
+            libero accusantium nisi.</p>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section>
+  <div class="col-lg-4 col-md-6 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
+          <div class="service">
+            <span class="icon icon-cursor mb-4 d-block"></span>
+            <h3>Branding</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing onsectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5 text-center"  data-aos="fade-up" data-aos-delay="100">
+          <div class="service">
+            <span class="icon icon-badge mb-4 d-block"></span>
+            <h3>Web Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing onsectetur adipisicing elit.</p>
+          </div>
+        </div>
+    
+        <div class="col-lg-4 col-md-6 mb-5 text-center"  data-aos="fade-up" data-aos-delay="200">
+          <div class="service">
+            <span class="icon icon-fire mb-4 d-block"></span>
+            <h3>App Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing onsectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
+          <div class="service">
+            <span class="icon icon-layers mb-4 d-block"></span>
+            <h3>Start Up</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing onsectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5 text-center"  data-aos="fade-up" data-aos-delay="100">
+          <div class="service">
+            <span class="icon icon-mouse mb-4 d-block"></span>
+            <h3>Branding</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing onsectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5 text-center"  data-aos="fade-up" data-aos-delay="200">
+          <div class="service">
+            <span class="icon icon-magnet mb-4 d-block"></span>
+            <h3>Creative Design</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing onsectetur adipisicing elit.</p>
+          </div>
+        </div>
+        
+        <div class="col-lg-4 col-md-6 mb-5 text-center"  data-aos="fade-up" data-aos-delay="">
+          <div class="service">
+            <span class="icon icon-paper-plane mb-4 d-block"></span>
+            <h3>Email Marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing onsectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5 text-center"  data-aos="fade-up" data-aos-delay="100">
+          <div class="service">
+            <span class="icon icon-handbag mb-4 d-block"></span>
+            <h3>Shopping Cart</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing onsectetur adipisicing elit.</p>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mb-5 text-center"  data-aos="fade-up" data-aos-delay="200">
+          <div class="service">
+            <span class="icon icon-rocket mb-4 d-block"></span>
+            <h3>Start Up</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing onsectetur adipisicing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Carousal-1 -->
+          <section>
+                    <div class="four">
+      <div id="carouselExampleCaptions" class="carousel slide carousal-fade" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -118,8 +302,70 @@
   </a>
   </div>
 </div>
+</section>
+    <!-- Carousal-1 End -->
   
+<!-- Footer -->
+  <section>
+     <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-4 mb-5">
+          <h3 class="mb-4">About Craft</h3>
+          <p class="mb-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias nihil numquam aspernatur
+            inventore sint eligendi nostrum!</p>
+          <ul class="list-unstyled footer-link d-flex footer-social">
+            <li><a href="#" class="p-2"><span class="fa fa-twitter"></span></a></li>
+            <li><a href="#" class="p-2"><span class="fa fa-facebook"></span></a></li>
+            <li><a href="#" class="p-2"><span class="fa fa-linkedin"></span></a></li>
+            <li><a href="#" class="p-2"><span class="fa fa-instagram"></span></a></li>
+          </ul>
 
+        </div>
+        <div class="col-md-5 mb-5 pl-md-5">
+          <div class="mb-5">
+            <h3 class="mb-4">Contact Info</h3>
+            <ul class="list-unstyled footer-link quick-contact">
+              <li class="d-block">
+                <span class="d-block caption">Address:</span>
+                <span>34 Street Name, City Name Here, United States</span>
+              </li>
+              <li class="d-block">
+                <span class="d-block caption">Telephone:</span><span>+1 242 4942 290</span>
+              </li>
+              <li class="d-block">
+                <span class="d-block caption">Email:</span><span>info@yourdomain.com</span>
+              </li>
+            </ul>
+          </div>
+
+          
+        </div>
+        <div class="col-md-3 mb-5">
+          <h3 class="mb-4">Quick Links</h3>
+          <ul class="list-unstyled footer-link">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Disclaimers</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3">
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 text-md-center text-left">
+          <p class="small"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </section>
+<!-- Footer End -->
 
 
     <!-- Optional JavaScript -->
