@@ -1,0 +1,97 @@
+body {
+    background-image: url("https://download.hipwallpaper.com/desktop/1680/1050/31/76/E8FiYD.jpg");
+    background-size: cover;
+}
+.main {
+    min-width: 350px;
+    width: 38%;
+    margin: 0.7rem auto;
+    border-radius: 20px;
+}
+.one {
+    width: 80%;
+    margin: 20px auto;
+    border-bottom: lightgray 2px solid;
+}
+.two {
+    width: 80%;
+    margin: 20px auto;
+}
+h1 , h2 , h5 {
+    text-align: center;
+}
+h2 {
+    margin-bottom: 0;
+}
+h5{
+    margin-bottom: 0.9rem;
+}
+.tick {
+    margin-top: 7px;
+}
+.btn1 {
+    margin-left: 6.5rem;
+    width: 8rem;
+}
+.lbtn {
+    
+    padding: 5px 6px;
+}
+#a {
+    background-color: rgb(177, 34, 34);
+    border: solid black 1px;
+}
+#b {
+    background-color: rgb(8, 55, 184);
+    border: solid black 1px;
+}
+#c {
+    border: solid black 1px;
+}
+
+#d {
+    background-color: rgb(19, 19, 19);
+    border: solid black 1px;
+}
+#create {
+    text-align: center;
+    margin-left: 8px;
+}
+
+#one {
+    margin-top: 1rem;
+}
+/*
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  margin-left: -60px;
+  
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+ /* opacity: 0;
+  transition: opacity 1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+*/
+#z {
+    color: red;
+}
